@@ -1,0 +1,74 @@
+<div id="Navbar">
+  <nav class="navbar navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets\img\logo.jpeg" alt="" width="30%" >
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" routerlink="/home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" routerlink="/login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" routerlink="/atendimento">Atendimento</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Jogos
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item " href="#">Playstation</a></li>
+                <li><a class="dropdown-item" href="#">Xbox</a></li>
+                <li><a class="dropdown-item" href="#">Nintendo</a></li>
+                <li><a class="dropdown-item" href="#">Jogos para PC</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Ofertas</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Busca</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<div id="colunas">
+  <div class="container-fluid" style="background-color: black;">
+    <div class="row">
+      <div class="col-sm-2">
+        <img src="assets\img\playstation.png" width="50px" height="50px"><h5>Playstation</h5>
+      </div>
+        <div class="col-sm-2">
+        <img src="assets\img\xbox.png" width="60px" height="60px"><h5>XBOX</h5>
+      </div>
+      <div class="col-sm-2">
+        <img src="assets\img\nintendo.png" width="60px" height="60px"><h5>NINTENDO</h5>
+      </div>
+      <div class="col-sm-2">
+        <img src="assets\img\retro-game.png" width="40px" height="40px"><h5>Games Retrô</h5>
+      </div>
+      <div class="col-sm-2">
+        <img src="assets\img\computer.png" width="50px" height="50px"><h5>Hardware</h5>
+      </div>
+      <div class="col-sm-2">
+        <img src="assets\img\black-friday.png" width="50px" height="50px"><h5>BLACK-FRIDAY</h5>
+      </div>
+    </div>
+  </div>
+</div>
